@@ -13,11 +13,7 @@ async function start(i) {
         const r = await axios({
             method: 'post',
             url: 'YOUR_URL_HERE',
-            headers: {
-                'accept': 'application/json',
-                'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJwcm92aWRlclwiOlwie1xcXCJpZFxcXCI6NjE3LFxcXCJhY2Nlc3NUb2tlblxcXCI6XFxcIjIwMTktMDUtMDJUMjE6NTg6MTkuNjI4XFxcIixcXFwidHlwZVxcXCI6XFxcIlNFUlZJQ0VcXFwiLFxcXCJncm91cFJvbGVzXFxcIjpbe1xcXCJpZFxcXCI6MSxcXFwiZGVzY3JpcHRpb25cXFwiOm51bGwsXFxcImNyZWF0ZWRcXFwiOm51bGwsXFxcInVwZGF0ZWRcXFwiOm51bGx9XSxcXFwiY3JlYXRlZFxcXCI6bnVsbCxcXFwidXBkYXRlZFxcXCI6bnVsbH1cIn0iLCJpc3MiOiJhdXRoMCJ9.3fILWN4oHYHUE908K2eDqUtTe8IqTJBJ8jGtC6GiBzY',
-                'X-TRANSACTION-ID': '2020B03E30N17N47U39552199693576123'
-            },
+            headers: YOUR_HEADERS,
             data: YOUR_BODY,
             httpsAgent
         });
